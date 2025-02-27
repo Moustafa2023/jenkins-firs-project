@@ -16,6 +16,7 @@ pipeline {
                 npm --vesion
                 npm ci #to install the required dep
                 npm run build
+                ls -la
                 '''
             }
         }
