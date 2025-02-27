@@ -13,7 +13,7 @@ pipeline {
                 sh '''
                 ls -la
                 node --version
-                npm --vesion
+                npm --version
                 npm ci #to install the required dep
                 npm run build
                 ls -la
