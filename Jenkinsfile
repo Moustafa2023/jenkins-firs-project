@@ -14,7 +14,8 @@ pipeline {
                 ls -la
                 node --version
                 npm --version
-                npm ci #to install the required dep
+                npm ci 
+                #to install the required dep
                 npm run build
                 ls -la
                 '''
